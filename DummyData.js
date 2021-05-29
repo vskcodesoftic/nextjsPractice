@@ -11,7 +11,7 @@ const DUMMY_EVENTS = [
     },
     {
       id: 'e2',
-      title: 'Networking for introverts',
+      title: 'Peace at the cost of lives',
       description:
         "We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
       location: 'New Wall Street 5, 98765 New Work',
@@ -21,7 +21,7 @@ const DUMMY_EVENTS = [
     },
     {
       id: 'e3',
-      title: 'Free Palienstine',
+      title: 'Festive',
       description:
         'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
       location: 'My Street 12, 10115 Broke City',
