@@ -1,9 +1,10 @@
 import React from 'react'
+import ErrorAlert from '../components/ui/ErrorAlert'
 
 const NotFound = () => {
     return (
         <div>
-            <h1>page not found</h1>
+            <ErrorAlert>page not found</ErrorAlert>
         </div>
     )
 }

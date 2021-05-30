@@ -3,6 +3,7 @@ import React, { Fragment } from 'react'
 import EventContent from '../../components/events/EventContent';
 import EventLogistics from '../../components/events/EventLogistics';
 import EventSummary from '../../components/events/EventSummary';
+import ErrorAlert from '../../components/ui/ErrorAlert';
 import { getEventById } from '../../DummyData';
 
 const EventDetailPage = () => {
@@ -10,7 +11,7 @@ const EventDetailPage = () => {
   const eventId =  router.query.eventId;
   const event = getEventById(eventId);
   if(!event){
-      return <p>no event found !</p>
+      return <ErrorAlert><p>no event found !</p></ErrorAlert>
   }
     return (
        <Fragment>
